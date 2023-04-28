@@ -11,7 +11,7 @@ public class TerrainGenerator : MonoBehaviour
     public float maxHeight = 50f; // Maximum height of the terrain
     public float minHeight = -20f; // Minimum height of the terrain
     public int octaves = 8; // Number of octaves to use for Perlin noise
-    public float persistence; // Persistence value for Perlin noise
+    public float persistence = 0.5f; // Persistence value for Perlin noise
     public float lacunarity = 2f; // Lacunarity value for Perlin noise
     public Vector2 offset = new Vector2(0, 0); // Offset for the Perlin noise
 
